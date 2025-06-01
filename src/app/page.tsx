@@ -8,11 +8,6 @@ import { ArrowRight, Eye, Mail, Phone, MapPin, Download } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
-import image1 from "../public/CS1.jpg"
-import image2 from "../public/FlowPay Case Study1.jpg"
-import image3 from "../public/UX Case Study1.jpg"
-import image4 from "../public/Presentation1.jpg"
-import image5 from "../public/about.jpg"
 
 const portfolioItems = [
   {
@@ -171,7 +166,7 @@ export default function HomePage() {
                 <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Me</span>
               </h2>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                I'm a passionate UX/UI designer and graphic designer with over 3 years of experience creating digital
+                I&apos;m a passionate UX/UI designer and graphic designer with over 3 years of experience creating digital
                 experiences that not only look stunning but also solve real problems. My approach combines user-centered
                 design principles with cutting-edge visual aesthetics.
               </p>
@@ -301,11 +296,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Let's{" "}
+              Let&apos;s{" "}
               <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Connect</span>
             </h2>
             <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Ready to bring your vision to life? Let's discuss your next project and create something amazing together.
+              Ready to bring your vision to life? Let&apos;s discuss your next project and create something amazing together.
             </p>
           </div>
 
