@@ -81,7 +81,7 @@ export default function HomePage() {
       <nav className=" z-50 p-6 sticky top-0 left-0 w-full bg-black/80 backdrop-blur-sm border-b border-white/10">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-            Moussaoui Walid DESIGN
+            Moussaoui Walid
           </div>
           <div className="hidden md:flex space-x-8">
             <Link href="#home" className="text-white hover:text-blue-400 transition-colors">
@@ -122,20 +122,19 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white border-0 px-8 py-6 text-lg"
+            <Link
+              href="#portfolio"
+              className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white border-0 rounded-xl px-4 py-3 text-lg flex items-center"
             >
               View My Work
               <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-6 text-lg"
+            </Link>
+            <Link
+              href="#contact"
+              className="border border-blue-400 text-blue-400 hover:bg-blue-500 hover:text-white px-4 py-3 text-lg rounded-xl"
             >
               Get In Touch
-            </Button>
+            </Link>
           </div>
 
           {/* Stats */}
@@ -304,17 +303,17 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="flex justify-center items-start gap-12">
             <div>
-              <h3 className="text-2xl font-semibold text-white mb-6">Get In Touch</h3>
-              <div className="space-y-6">
+              <h3 className="text-2xl font-semibold text-white mb-6 text-center">Get In Touch</h3>
+              <div className=" flex flex-wrap gap-8 items-center">
                 <div className="flex items-center space-x-4">
                   <div className="bg-gradient-to-r from-blue-500 to-blue-700 p-3 rounded-lg">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <p className="text-gray-300">Email</p>
-                    <p className="text-white font-semibold">Walid@designstudio.com</p>
+                    <p className="text-white font-semibold">walidosgfx@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -323,7 +322,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="text-gray-300">Phone</p>
-                    <p className="text-white font-semibold">+213 (555) 123-4567</p>
+                    <p className="text-white font-semibold">+213 559-802-845</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -338,35 +337,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-              <form className="space-y-6">
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Your Name"
-                    className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-blue-400"
-                  />
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-blue-400"
-                  />
-                </div>
-                <div>
-                  <textarea
-                    placeholder="Your Message"
-                    rows={4}
-                    className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-blue-400 resize-none"
-                  />
-                </div>
-                <Button className="w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white border-0 py-3">
-                  Send Message
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
-              </form>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -375,7 +346,7 @@ export default function HomePage() {
       <footer className="relative z-10 px-6 py-8 border-t border-white/10">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2025 wnehi ale studio. All rights reserved. Crafted with passion and creativity.
+            © 2025 Walid Moussaoui. All rights reserved. Crafted with passion and creativity.
           </p>
         </div>
       </footer>
